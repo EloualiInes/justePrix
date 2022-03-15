@@ -1,0 +1,99 @@
+:root{
+    --colorBlack:#232020;
+    --colorOrange:#ff7315;
+}
+html, body {
+    background-color: var(--colorBlack);
+    min-width: 500px;
+  }
+  
+header {
+    color: var(--colorOrange);
+    text-align: center;
+    font-size: 3em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+header > img{
+    width: 50px;
+    height: 50px;
+    margin-left: 16px;
+}
+
+small{
+      color: red;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#formulaire{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#div_formulaire{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1em;
+}
+
+#prix{
+    border-radius: 0.3em;
+    margin: 1em;
+    padding: 1em;
+}
+#div_btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#instructions {
+    color: white;
+}
+
+.btn{
+    padding: 0.5em;
+    background-color: var(--colorOrange);
+    color: white;
+    border: 1px solid var(--colorBlack);
+    border-radius: 0.5em;
+    box-shadow: 2px 5px 2px black;
+
+}
+
+.rejouer{
+    background-color: #0c9463;
+    font-size: 1.5em;
+}
+
+.instruction {
+    padding: 1em;
+    margin: 1em 0;
+    border-radius: 20px;
+}
+  
+.plus {
+    background-color: #f67280;
+}
+  
+.moins {
+    background-color: #ffa372;
+}
+  
+.fini {
+    background-color : #0c9463;
+}
